@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ExcelDNAAutofac/.vs/ExcelDNAAutofac
+/ExcelDNAAutofac/Calculators/bin/Debug/netstandard2.0
+/ExcelDNAAutofac/Calculators/obj
+/ExcelDNAAutofac/CalculatorTests/bin/Debug
+/ExcelDNAAutofac/CalculatorTests/obj/Debug
+/ExcelDNAAutofac/ExcelDNAAutofac/bin/Debug
+/ExcelDNAAutofac/ExcelDNAAutofac/obj/Debug
