@@ -1,11 +1,16 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿*.suo
+*.user
 
-/ExcelDNAAutofac/.vs/ExcelDNAAutofac
-/ExcelDNAAutofac/Calculators/bin/Debug/netstandard2.0
-/ExcelDNAAutofac/Calculators/obj
-/ExcelDNAAutofac/CalculatorTests/bin/Debug
-/ExcelDNAAutofac/CalculatorTests/obj/Debug
-/ExcelDNAAutofac/ExcelDNAAutofac/bin/Debug
-/ExcelDNAAutofac/ExcelDNAAutofac/obj/Debug
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
